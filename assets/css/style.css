@@ -1,0 +1,290 @@
+
+@font-face {
+    font-family: Hassan-LT-Light;
+    src: url("../fonts/Ara\ Hamah\ 1964\ R\ Regular.otf");
+  }
+  @font-face {
+    font-family: Hassan-LT-bold;
+    src: url("../fonts/Ara\ Hamah\ 1964\ B\ Bold.ttf");
+  }
+  * {
+  
+
+    font-family: Hassan-LT-Light !important;
+    font-family: Hassan-LT-Light !important;
+  
+  }
+
+
+
+/* home*/
+
+  
+  .full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+ .navbar-collapse{
+    justify-content: center !important;
+}
+.navbar-nav a{
+    font-size: 21px !important;
+    color: black !important;
+}
+.navbar-nav li {
+    margin-right: 40px;
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+}
+.firstSection img{
+    box-shadow: 0 0 0 1px rgb(53 72 91 / 7%), 0 2px 2px rgb(0 0 0 / 1%), 0 4px 4px rgb(0 0 0 / 2%), 0 10px 8px rgb(0 0 0 / 3%), 0 15px 15px rgb(0 0 0 / 3%), 0 30px 30px rgb(0 0 0 / 4%), 0 70px 65px rgb(0 0 0 / 5%);
+    border-radius: 24px;
+    max-width: 490px;
+}
+.firstSection{
+    direction: rtl;
+}
+.firstSection h2 {
+    font-family: Hassan-LT-bold !important;
+    text-align: right;
+    color: #d2ab67;
+}
+.firstSection h1 {
+    font-family: Hassan-LT-bold !important;
+    text-align: right;
+}
+.firstSection p{
+    text-align: right;
+    font-size: 25px;
+}
+
+.secondSection a{
+    font-size: 20px ;
+    color: black !important;
+}
+ fieldset{
+   text-align: end !important;
+}
+.secondSection h3{
+    font-family: Hassan-LT-bold !important;
+}
+footer{
+    padding: 25px;
+}
+.footerText h3{
+    font-family: Hassan-LT-bold !important;
+    color: #dd6e27;
+}
+.footerText2{
+    margin-top: 5px;
+    color: #dd6e27;
+}
+.readMore{
+    padding: 7px;
+    margin-right: 7px;
+    border: none !important;
+    border-radius:7px;
+    color: white;
+    font-size: 25px;
+    background-color: #dd6e27;
+}
+.Projects{
+    padding: 7px;
+    margin-left: 7px;
+    border: none !important;
+    border-radius:7px;
+    color: white;
+    font-size: 25px;
+    background-color: #006637;
+}
+
+
+.Projects:hover{
+    padding: 7px;
+    margin-right: 7px;
+    border: none !important;
+    border-radius:7px;
+    color: white;
+    font-size: 25px;
+    background-color: #dd6e27;
+}
+
+.readMore:hover{
+    padding: 7px;
+    margin-left: 7px;
+    border: none !important;
+    border-radius:7px;
+    color: white;
+    font-size: 25px;
+    background-color: #006637;
+}
+button:focus-visible{
+    outline: none !important;
+}
+button:focus{
+    outline: none !important;
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+/*who are we*/
+
+.who{
+    background-image: url(../images/whoSlider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+}
+.firstSectionwho img{
+    box-shadow: 0 0 0 1px rgb(53 72 91 / 7%), 0 2px 2px rgb(0 0 0 / 1%), 0 4px 4px rgb(0 0 0 / 2%), 0 10px 8px rgb(0 0 0 / 3%), 0 15px 15px rgb(0 0 0 / 3%), 0 30px 30px rgb(0 0 0 / 4%), 0 70px 65px rgb(0 0 0 / 5%);
+    border-radius: 24px;
+    max-width: 420px;
+}
+
+.firstSectionwho h2 {
+    font-family: Hassan-LT-bold !important;
+    text-align: right;
+    color: #dd6e27;
+}
+.firstSectionwho h1 {
+    font-family: Hassan-LT-bold !important;
+    text-align: right;
+}
+.firstSectionwho{
+    direction: rtl;
+}
+
+.firstSectionwho p{
+    text-align: right;
+    font-size: 25px;
+}
+.wholastSection h1{
+    font-family: Hassan-LT-bold !important;
+}
+.wholastSection h2{
+    font-family: Hassan-LT-bold !important;
+}
+/*projects and certificates */
+.projects{
+    background-image: url(../images/projects.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+}
+.projectFirsrSection h1 ,.Productsfirstsection h1{
+    font-family: Hassan-LT-bold !important;
+}
+.projectFirsrSection img{
+    box-shadow: 0 0 0 1px rgb(53 72 91 / 7%), 0 2px 2px rgb(0 0 0 / 1%), 0 4px 4px rgb(0 0 0 / 2%), 0 10px 8px rgb(0 0 0 / 3%), 0 15px 15px rgb(0 0 0 / 3%), 0 30px 30px rgb(0 0 0 / 4%), 0 70px 65px rgb(0 0 0 / 5%);
+    border-radius: 24px;
+}
+.projectFirsrSection h5{
+    text-align: center;
+    padding: 29px;
+    margin-right: 2rem;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.whoSlider{
+    height: 390px !important;
+  
+    border: 5px solid #dd6e27;
+    border-radius: 17px;
+}
+/*products*/
+.products{
+    background-image: url(../images/Products.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+}
+.Productsfirstsection h3{
+    font-family: Hassan-LT-bold !important;
+   
+    color: #dd6e27;
+}
+.Thamama img{
+    border: 3px solid #dd6e27;
+    box-shadow: 0 0 0 1px rgb(53 72 91 / 7%), 0 2px 2px rgb(0 0 0 / 1%), 0 4px 4px rgb(0 0 0 / 2%), 0 10px 8px rgb(0 0 0 / 3%), 0 15px 15px rgb(0 0 0 / 3%), 0 30px 30px rgb(0 0 0 / 4%), 0 70px 65px rgb(0 0 0 / 5%);
+    border-radius: 24px;
+}
+.ProductsSecondsection h1{
+    font-family: Hassan-LT-bold !important;
+    text-align: end;
+}
+ul{
+    direction: rtl;
+    text-align: initial;
+}
+.ProductsSecondsection li::marker {
+    content: url(../images/icon.png);
+  }
+.Ola img{
+    border: 3px solid #dd6e27;
+    box-shadow: 0 0 0 1px rgb(53 72 91 / 7%), 0 2px 2px rgb(0 0 0 / 1%), 0 4px 4px rgb(0 0 0 / 2%), 0 10px 8px rgb(0 0 0 / 3%), 0 15px 15px rgb(0 0 0 / 3%), 0 30px 30px rgb(0 0 0 / 4%), 0 70px 65px rgb(0 0 0 / 5%);
+    border-radius: 24px;
+}
+/*why us?*************/
+
+
+.whyUs{
+    background-image: url(../images/whyus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+}
+.icons {
+border: 3px solid #9b9a9a;
+border-radius: 15px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    background: #d0c0a6;
+    padding: 1.25rem;
+    text-align: center;
+    width: 308px;
+    /* align-items: center; */
+    margin-left: -12px;
+    /* height: 97px; */
+    border-radius: 15px;
+  
+   }
+    .card-body p{
+        font-family: Hassan-LT-bold !important;
+        font-size: 18px;
+    }
+    .card{
+        height: 190px;
+        border-top: 3px solid #9b9a9a !important;
+        border-left: 3px solid #9b9a9a !important;
+        border-right: 3px solid #9b9a9a !important;
+        border-radius: 15px 15px 0 0 !important;
+    }
+    .whybadialast h1{
+        font-family: Hassan-LT-bold !important;
+   
+    color: #dd6e27;
+    }
+    .whybadialast h2{
+        font-family: Hassan-LT-bold !important;
+        text-align: end;
+
+    }
