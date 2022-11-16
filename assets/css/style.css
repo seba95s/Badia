@@ -288,3 +288,17 @@ border-radius: 15px;
         text-align: end;
 
     }
+
+    /*contact */
+    .contact
+    {
+        background-image: url(../images/contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 520px;
+    }
+
+    .contactBlock h1{
+        text-align: end;
+        font-family: Hassan-LT-bold !important;
+    }
